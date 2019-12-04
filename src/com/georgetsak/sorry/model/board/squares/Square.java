@@ -1,12 +1,14 @@
 package com.georgetsak.sorry.model.board.squares;
 
+import com.georgetsak.sorry.controller.Controller;
 import com.georgetsak.sorry.model.Pawn;
+import com.georgetsak.sorry.model.board.Board;
 import com.georgetsak.sorry.model.board.Color;
 
 /**
  * This class represents a square and provides some modification methods
  */
-public abstract class Square {
+public abstract class Square extends Board {
 
     private Pawn pawn;
     private final int id;
