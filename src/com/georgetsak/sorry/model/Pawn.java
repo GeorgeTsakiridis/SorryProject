@@ -17,6 +17,11 @@ public class Pawn {
         this.color = color;
     }
 
+    /**
+     * <b>Accessor</b> Returns the color of the pawn
+     * <b>Postcondition</b> the color of the pawn is returned
+     * @return the color of the pawn
+     */
     public Color getColor() {
         return color;
     }
