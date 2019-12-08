@@ -2,6 +2,9 @@ package com.georgetsak.sorry.model.square;
 
 import com.georgetsak.sorry.model.Color;
 
+/**
+ * This class represents the first square of a slider
+ */
 public class SquareSlideEntrance extends Square{
 
     private final int length;

@@ -16,7 +16,7 @@ public abstract class Square extends Board {
     /**
      * <b>Constructor</b> Creates a new square with {@code id} id and {@code color} color
      * <b>Precondition<b/> {@code id} is unique and {@code color} is not null
-     * <b>Postcondition</b> A square with with {@code id} id and {@code color} color is created
+     * <b>Postcondition</b> a square with with {@code id} id and {@code color} color is created
      * @param id the unique id of the square
      * @param color the color of the square
      */
