@@ -26,9 +26,9 @@ public class Controller {
     private Board board;
     private Deck deck;
     private Card currentCard;
-   private boolean pickedCard;
-   private boolean obeyedCard;
-   private boolean vsComputer;
+    private boolean pickedCard;
+    private boolean obeyedCard;
+    private boolean vsComputer;
 
     /**
      * <b>Constructor</b> constructs a new Controller and initializes all components necessary to start the game
@@ -50,9 +50,10 @@ public class Controller {
 
         pickedCard = false;
         obeyedCard = false;
+        currentCard = null;
 
+        view = new View();
         vsComputer = view.displayConfirmDialog("Opponent?", "Play against computer ?") == 1;
-
     }
 
     /**
@@ -60,7 +61,7 @@ public class Controller {
      * <b>Postcondition<b/> the turn is given to the next player
      */
     private void nextTurn(){
-        playerPlaying = playerPlaying == playerRed ? playerYellow : playerRed;
+
     }
 
     /**
@@ -101,14 +102,14 @@ public class Controller {
     }
 
     /**
-     * <b>Observer</b> checks if the {@code pawn} pawn can move by {@code steps} steps
-     * <b>Precondition</b> a non null {@code pawn} and a non 0 {@code steps}
-     * <b>Postcondition</b> returns true depending on whether or not the given pawn can move by {@code steps} steps or not
-     * @param pawn the pawn to perform the check on
+     * <b>Observer</b> checks if the pawn on {@code square} can move by {@code steps} steps
+     * <b>Precondition</b> a non null {@code square} and a non zero {@code steps}, {@code square} must have a pawn on it
+     * <b>Postcondition</b> returns true depending on whether or not the pawn on {@code square} can move by {@code steps} steps or not
+     * @param square the square that the pawn to perform the check on is standing on
      * @param steps the number of steps
      * @return true if the {@code pawn} pawn can move by {@code steps} steps; false otherwise
      */
-    public boolean canPawnMoveForwardBy(Pawn pawn, int steps){
+    private boolean canPawnOnSquareMoveBy(Square square, int steps){
         return false;
     }
 

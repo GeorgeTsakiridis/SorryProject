@@ -21,7 +21,7 @@ public class View {
     private JButton forfeitMoveButton;
     private JButton saveGameButton;
     private JButton loadGameButton;
-    private JButton[] boardSquaresButtons = new JButton[73];
+    private JButton[] boardSquaresButtons;
     private JLabel playerPlayingLabel;
     private JLabel cardsLeftLabel;
 
