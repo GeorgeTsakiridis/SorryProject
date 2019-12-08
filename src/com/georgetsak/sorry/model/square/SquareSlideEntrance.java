@@ -1,6 +1,6 @@
-package com.georgetsak.sorry.model.board.square;
+package com.georgetsak.sorry.model.square;
 
-import com.georgetsak.sorry.model.board.Color;
+import com.georgetsak.sorry.model.Color;
 
 public class SquareSlideEntrance extends Square{
 

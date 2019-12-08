@@ -1,8 +1,8 @@
-package com.georgetsak.sorry.model.board.square;
+package com.georgetsak.sorry.model.square;
 
+import com.georgetsak.sorry.model.Board;
+import com.georgetsak.sorry.model.Color;
 import com.georgetsak.sorry.model.Pawn;
-import com.georgetsak.sorry.model.board.Board;
-import com.georgetsak.sorry.model.board.Color;
 
 /**
  * This class represents a square and provides some modification methods

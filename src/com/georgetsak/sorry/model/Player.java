@@ -1,7 +1,5 @@
 package com.georgetsak.sorry.model;
 
-import com.georgetsak.sorry.model.board.Color;
-
 import java.util.ArrayList;
 
 /**

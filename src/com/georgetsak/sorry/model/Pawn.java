@@ -1,7 +1,5 @@
 package com.georgetsak.sorry.model;
 
-import com.georgetsak.sorry.model.board.Color;
-
 /**
  * This class represents a Pawn
  */

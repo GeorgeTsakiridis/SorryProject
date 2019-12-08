@@ -1,6 +1,6 @@
-package com.georgetsak.sorry.model.board;
+package com.georgetsak.sorry.model;
 
-import com.georgetsak.sorry.model.board.squares.Square;
+import com.georgetsak.sorry.model.square.Square;
 
 /**
  * This class represents a board and contains methods for changing pawns position and checking if moves are valid

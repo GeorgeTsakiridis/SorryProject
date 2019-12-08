@@ -1,11 +1,11 @@
-package com.georgetsak.sorry.model.board.squares;
+package com.georgetsak.sorry.model.square;
 
+import com.georgetsak.sorry.model.Color;
 import com.georgetsak.sorry.model.Pawn;
-import com.georgetsak.sorry.model.board.Color;
 
 import java.util.ArrayList;
 
-public class SquareMultiplePawns extends Square{
+public class SquareMultiplePawns extends Square {
 
     ArrayList<Pawn> pawns = new ArrayList<>();
 

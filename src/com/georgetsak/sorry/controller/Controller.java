@@ -2,9 +2,9 @@ package com.georgetsak.sorry.controller;
 
 import com.georgetsak.sorry.model.Pawn;
 import com.georgetsak.sorry.model.Player;
-import com.georgetsak.sorry.model.board.Board;
-import com.georgetsak.sorry.model.board.Color;
-import com.georgetsak.sorry.model.board.square.Square;
+import com.georgetsak.sorry.model.Board;
+import com.georgetsak.sorry.model.Color;
+import com.georgetsak.sorry.model.square.Square;
 import com.georgetsak.sorry.model.card.Card;
 import com.georgetsak.sorry.model.card.Deck;
 import com.georgetsak.sorry.viewer.View;
