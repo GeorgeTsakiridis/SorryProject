@@ -3,7 +3,7 @@ package com.georgetsak.sorry.model;
 import com.georgetsak.sorry.model.square.Square;
 
 /**
- * This class represents a board and contains methods for changing pawns position and checking if moves are valid
+ * This class represents a board and contains methods for changing pawns position and some other help methods regarding squares
  */
 public class Board {
 
