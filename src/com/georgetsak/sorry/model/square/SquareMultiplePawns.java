@@ -52,4 +52,13 @@ public class SquareMultiplePawns extends Square {
         pawns.remove(pawn);
     }
 
+    @Override
+    public Pawn getPawnOnTop() {
+        return null;
+    }
+
+    @Override
+    public void setPawnOnTop(Pawn pawn) {
+
+    }
 }
