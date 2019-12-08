@@ -1,4 +1,4 @@
-package com.georgetsak.sorry.model.board.squares;
+package com.georgetsak.sorry.model.board.square;
 
 import com.georgetsak.sorry.model.board.Color;
 

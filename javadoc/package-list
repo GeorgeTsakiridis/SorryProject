@@ -1,6 +1,6 @@
 com.georgetsak.sorry.controller
 com.georgetsak.sorry.model
 com.georgetsak.sorry.model.board
-com.georgetsak.sorry.model.board.squares
+com.georgetsak.sorry.model.board.square
 com.georgetsak.sorry.model.card
 com.georgetsak.sorry.viewer

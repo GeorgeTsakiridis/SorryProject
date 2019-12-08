@@ -19,32 +19,13 @@ public class Deck {
     }
 
     /**
-     * <b>Accessor<b/> returns the top card of the deck if it is no empty
+     * <b>Accessor<b/> returns the top card of the deck if it is no empty and removes the card that was picked from the deck
      * <b>Precondition</b> the deck is not empty
-     * <b>Postcondition<b/> the top card of the deck is returned or null if there was no card in deck
+     * <b>Postcondition<b/> the top card of the deck is returned if the deck has a card and then that card is removed from the deck
      * @return the top card of the deck; null otherwise
      */
     public Card pickCard(){
         return null;
-    }
-
-    /**
-     *<b>Transformer(mutative)</b> removes the given card from the deck
-     * <b>Precondition<b/> the card must be in the deck
-     * <b>Postcondition<b/> the card has been removed from the deck
-     * @param card the card to be removed
-     */
-    public void removeCard(Card card){
-
-    }
-
-    /**
-     * <b>Observer</b> returns whether or not the deck is empty
-     * <b>Postcondition</b> whether or not deck is empty has been returned
-     * @return whether or not the deck is empty
-     */
-    public boolean isDeckEmpty(){
-        return cards.size() == 0;
     }
 
     /**
@@ -76,6 +57,16 @@ public class Deck {
         }
 
         Collections.shuffle(cards);
+    }
+
+    /**
+     * <b>Transformer(mutative)<b/> overrides the cards stored in private field cards with the cards given in function field {@code cards}
+     * <b>Precondition<b/> cards is not null
+     * <b>Postcondition</b> local field cards is replaced with the cards field of the function
+     * @param cards the cards list to override the Deck cards field with.
+     */
+    public void setCards(ArrayList<Card> cards){
+        this.cards = cards;
     }
 
 }

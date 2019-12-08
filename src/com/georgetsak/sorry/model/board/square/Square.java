@@ -1,6 +1,5 @@
-package com.georgetsak.sorry.model.board.squares;
+package com.georgetsak.sorry.model.board.square;
 
-import com.georgetsak.sorry.controller.Controller;
 import com.georgetsak.sorry.model.Pawn;
 import com.georgetsak.sorry.model.board.Board;
 import com.georgetsak.sorry.model.board.Color;

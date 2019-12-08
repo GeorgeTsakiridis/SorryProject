@@ -3,9 +3,9 @@ package com.georgetsak.sorry.model.card;
 /**
  * This class represents a Directional card
  */
-public class CardDirectional extends CardMove {
+public abstract class CardDirectional extends CardMove {
 
-    int steps;
+    private int steps;
 
     /**
      * <b>Constructor<b/> creates a new Direction card with <code>steps</code> steps.

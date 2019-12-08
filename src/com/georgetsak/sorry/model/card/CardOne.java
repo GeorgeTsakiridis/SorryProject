@@ -3,8 +3,13 @@ package com.georgetsak.sorry.model.card;
 /**
  * This class represents an One card
  */
-public class CardOne extends CardStart{
+public class CardOne extends CardDirectional{
     public CardOne() {
-        super(1, false);
+        super(1);
+    }
+
+    @Override
+    public boolean canAddPawn() {
+        return true;
     }
 }

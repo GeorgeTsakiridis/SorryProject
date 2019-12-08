@@ -1,7 +1,7 @@
 package com.georgetsak.sorry.model.card;
 
 /**
- * This class represents a Move card
+ * This class represents a card that requires a pawn to be moved
  */
 public abstract class CardMove implements Card{
 

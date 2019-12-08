@@ -1,6 +1,6 @@
 package com.georgetsak.sorry.viewer;
 
-import com.georgetsak.sorry.model.board.squares.Square;
+import com.georgetsak.sorry.model.board.square.Square;
 
 import javax.swing.*;
 import java.awt.*;
