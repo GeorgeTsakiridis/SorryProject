@@ -26,7 +26,6 @@ public class View {
     private JLabel cardsLeftLabel;
 
     private Square origin;
-    private Square destination;
 
     /**
      * <b>Constructor</b> constructs the View and initializes and displays the window
