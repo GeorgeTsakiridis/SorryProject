@@ -7,7 +7,7 @@ import com.georgetsak.sorry.model.Pawn;
 /**
  * This class represents a square and provides some modification methods
  */
-public abstract class Square extends Board {
+public abstract class Square {
 
     private Pawn pawn;
     private final int id;

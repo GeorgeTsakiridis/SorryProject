@@ -1,5 +1,6 @@
 package com.georgetsak.sorry.viewer;
 
+import com.georgetsak.sorry.model.Color;
 import com.georgetsak.sorry.model.square.Square;
 
 import javax.swing.*;
@@ -32,7 +33,6 @@ public class View {
      * <b>Postcondition</b> a View is created and window along with its inner main components like panels are initialized and displayed
      */
     public View(){
-
     }
 
     /**
@@ -70,7 +70,6 @@ public class View {
          */
         @Override
         public void actionPerformed(ActionEvent e) {
-
         }
 
     }
@@ -152,7 +151,6 @@ public class View {
          * <p><b>Postcondition:</b> doing some action after the forfeit move button has been pressed</p>
          *
          */
-
         @Override
         public void actionPerformed(ActionEvent e) {
 
