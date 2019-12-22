@@ -9,6 +9,7 @@ import com.georgetsak.sorry.model.card.Card;
 import com.georgetsak.sorry.model.card.Deck;
 import com.georgetsak.sorry.viewer.View;
 
+import javax.swing.*;
 import java.io.File;
 import java.util.Random;
 
@@ -132,6 +133,12 @@ public class Controller {
     }
 
     public static void main(String[] args) {
+
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         new Controller();
     }
 
