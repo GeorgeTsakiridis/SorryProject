@@ -7,4 +7,9 @@ public class CardEight extends CardDirectional{
     public CardEight() {
         super(8);
     }
+
+    @Override
+    public String toString() {
+        return "8";
+    }
 }

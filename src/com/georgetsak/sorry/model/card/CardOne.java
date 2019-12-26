@@ -12,4 +12,9 @@ public class CardOne extends CardDirectional{
     public boolean canAddPawn() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "1";
+    }
 }

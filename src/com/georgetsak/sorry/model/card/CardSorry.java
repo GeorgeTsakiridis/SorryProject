@@ -39,4 +39,9 @@ public class CardSorry implements Card {
     public boolean drawAgain() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "S";
+    }
 }

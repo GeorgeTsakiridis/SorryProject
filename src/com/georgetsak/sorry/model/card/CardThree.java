@@ -7,4 +7,9 @@ public class CardThree extends CardDirectional{
     public CardThree() {
         super(3);
     }
+
+    @Override
+    public String toString() {
+        return "3";
+    }
 }

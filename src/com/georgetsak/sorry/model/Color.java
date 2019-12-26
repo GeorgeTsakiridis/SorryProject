@@ -6,3 +6,5 @@ package com.georgetsak.sorry.model;
 public enum Color {
     NONE, GREEN, RED, BLUE, YELLOW;
 }
+
+

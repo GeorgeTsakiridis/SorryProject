@@ -25,7 +25,18 @@ public class Deck {
      * @return the top card of the deck; null otherwise
      */
     public Card pickCard(){
-        return null;
+        Card card = cards.get(cards.size() - 1);
+        cards.remove(card);
+        return card;
+    }
+
+    /**
+     * <b>Accessor</b> returns the card array list of the deck
+     * <b>Postcondition</b> the array list of all the cards in the deck is returned
+     * @return an ArrayList with all the cards in the deck
+     */
+    public ArrayList<Card> getCards(){
+        return cards;
     }
 
     /**

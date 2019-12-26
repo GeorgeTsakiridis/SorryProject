@@ -15,4 +15,8 @@ public class CardTen extends CardMove{
         return 1;
     }
 
+    @Override
+    public String toString() {
+        return "10";
+    }
 }

@@ -54,4 +54,30 @@ public interface Card {
      * @return whether or not the card is an Eleven card
      */
     boolean isEleven();
+
+    /**
+     * Creates and returns a new card that matches the given string or null if the string does not match with a card
+     * <b>Precondition</b> A valid string
+     * <b>Postcondition</b> A new card is created and returned that matches the given string
+     * @param s the input string
+     * @return A new card that matches the given string; null if no card matches with the string
+     */
+    static Card toCard(String s){
+        switch (s){
+            case "1": return new CardOne();
+            case "2": return new CardTwo();
+            case "3": return new CardThree();
+            case "4": return new CardFour();
+            case "5": return new CardFive();
+            case "7": return new CardSeven();
+            case "8": return new CardEight();
+            case "10": return new CardTen();
+            case "11": return new CardEleven();
+            case "12": return new CardTwelve();
+            case "S": return new CardSorry();
+            default: return null;
+        }
+    }
+
+
 }

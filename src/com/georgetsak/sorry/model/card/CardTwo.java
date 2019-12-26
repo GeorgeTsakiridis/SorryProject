@@ -17,4 +17,9 @@ public class CardTwo extends CardDirectional{
     public boolean drawAgain() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "2";
+    }
 }

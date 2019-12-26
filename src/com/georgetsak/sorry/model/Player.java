@@ -48,4 +48,18 @@ public class Player {
         return pawns;
     }
 
+    /**
+     * <b>Accessor</b> returns the id of the {@code} pawn. The first pawn has an id of 0 while the second an id of 1.
+     * -1 is returned if the player hasn't that pawn.
+     * <b>Postcondition</b> The id of the pawn is returned if it is owned by the player. -1 otherwise
+     * @param pawn the pawn to get the id of
+     * @return The id of the pawn
+     */
+    public int getPawnId(Pawn pawn){
+        if(pawn == pawns.get(0))return 0;
+        if(pawn == pawns.get(1))return 1;
+
+        return -1;
+    }
+
 }

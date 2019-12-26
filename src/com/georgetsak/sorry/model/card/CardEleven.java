@@ -14,4 +14,8 @@ public class CardEleven extends CardDirectional{
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "11";
+    }
 }

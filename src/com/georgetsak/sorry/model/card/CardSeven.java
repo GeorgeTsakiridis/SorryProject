@@ -20,4 +20,8 @@ public class CardSeven extends CardMove{
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "7";
+    }
 }
